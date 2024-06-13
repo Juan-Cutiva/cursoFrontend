@@ -1,18 +1,55 @@
 ---
-import LogoYardSale from "../../Platzi Yard Sale/Platzi_YardSale_Logos/logo_yard_sale.astro";
+import LogoYardSale from '../../Platzi Yard Sale/Platzi_YardSale_Logos/logo_yard_sale.astro';
 ---
 
 <body>
-    <main>
-        <LogoYardSale/>
-    </main>
-    <article>
-        
-    </article>
-    <section>
-
-    </section>
-    <div>
-
-    </div>
+	<main class="mt-16 flex h-[23.3vh] flex-col items-center justify-around">
+		<LogoYardSale width="138" height="34" />
+		<div class="flex flex-col items-center">
+			<h1 class="text-lg">Create a new password</h1>
+			<h2 class="mt-2 text-lg text-[#9b9b9b]">Enter a new password for your account</h2>
+		</div>
+	</main>
+	<article class="flex flex-col items-center">
+		<h3 class="w-4/5 sm:mr-64">Password</h3>
+		<input
+			class="bg-grisClaro h-9 w-4/5 rounded-lg pb-1 pl-2 sm:w-96"
+			type="text"
+			placeholder="More than 8 characters"
+		/>
+		<h3 class="w-4/5 sm:mr-[11.5rem]">Re-enter-password</h3>
+		<input
+			class="bg-grisClaro h-9 w-4/5 rounded-lg pb-1 pl-2 sm:w-96"
+			type="text"
+			placeholder="Same Password"
+		/>
+	</article>
+	<section>
+		<button></button>
+	</section>
 </body>
+
+<style>
+	h1 {
+		font-family: 'Quicksand Variable', sans-serif;
+		font-weight: 700;
+	}
+	h2 {
+		font-family: 'Quicksand Variable', sans-serif;
+		font-weight: 500;
+	}
+	h3 {
+		font-family: 'Quicksand Variable', sans-serif;
+		font-weight: 700;
+	}
+	input {
+		border: 2px solid rgba(255, 255, 255, 0);
+	}
+	input::placeholder {
+		color: #c7c7c7;
+	}
+	input[type='text']:focus {
+		border: 2px solid #949494;
+		outline: none;
+	}
+</style>

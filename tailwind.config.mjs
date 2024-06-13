@@ -7,9 +7,9 @@ export default {
 				"currentColor" : "#EEEEEE",
 				'primary' : '#9b20b0ce',
 				'dark': '#232830;',
-				'very-light-pink': '#c7c7c7;',
-				'text-input-field': '#f7f7f7;',
-				'hospital-green': '#acd9b2;',
+				'gris': '#c7c7c7;',
+				'grisClaro': '#f7f7f7;',
+				'verde': '#acd9b2;',
 			}
 		},
 	},

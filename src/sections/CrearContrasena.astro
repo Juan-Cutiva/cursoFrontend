@@ -10,7 +10,7 @@ import LogoYardSale from '../../Platzi Yard Sale/Platzi_YardSale_Logos/logo_yard
 			<h2 class="mt-2 text-lg text-[#9b9b9b]">Enter a new password for your account</h2>
 		</div>
 	</main>
-	<article class="flex flex-col items-center mt-4">
+	<article class="mt-4 flex flex-col items-center">
 		<div>
 			<h3 class="sm:mr-64">Password</h3>
 			<input
@@ -28,8 +28,8 @@ import LogoYardSale from '../../Platzi Yard Sale/Platzi_YardSale_Logos/logo_yard
 			/>
 		</div>
 	</article>
-	<section>
-		<button></button>
+	<section class="mt-14 flex flex-col items-center">
+		<button class="text-grisClaro h-[3.8rem] w-80 sm:w-96">Confirm new password</button>
 	</section>
 </body>
 
@@ -55,5 +55,19 @@ import LogoYardSale from '../../Platzi Yard Sale/Platzi_YardSale_Logos/logo_yard
 	input[type='text']:focus {
 		border: 2px solid #949494;
 		outline: none;
+	}
+	button {
+		border: 3px solid #acd9b2;
+		border-radius: 10px;
+		transition: all 0.3s;
+		cursor: pointer;
+		background: #acd9b2;
+		font-size: 1.2em;
+		font-weight: 550;
+		font-family: 'Montserrat', sans-serif;
+	}
+	button:hover {
+		background: #acd9b2;
+		font-size: 1.5em;
 	}
 </style>

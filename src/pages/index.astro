@@ -3,6 +3,7 @@
 import '@fontsource-variable/quicksand';
 import '@fontsource/roboto/400.css';
 import CrearContrasena from '../sections/CrearContrasena.astro';
+import NavBar from '../components/NavBar';
 ---
 
 <html lang="en">
@@ -14,6 +15,7 @@ import CrearContrasena from '../sections/CrearContrasena.astro';
 		<title>Astro</title>
 	</head>
 	<body>
+		<NavBar client:load/>
 		<CrearContrasena/>
 	</body>
 </html>

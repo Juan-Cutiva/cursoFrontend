@@ -1,0 +1,25 @@
+<div class="mt-5">
+	<h3 class="sm:mr-[11.5rem]">{Astro.props.text}</h3>
+	<input
+		class="h-10 w-80 rounded-lg bg-grisClaro pb-1 pl-2 sm:w-96"
+		type="text"
+		placeholder={Astro.props.placeholder}
+	/>
+</div>
+
+<style>
+	input {
+		border: 2px solid rgba(255, 255, 255, 0);
+	}
+	input::placeholder {
+		color: #c7c7c7;
+	}
+	input[type='text']:focus {
+		border: 2px solid #949494;
+		outline: none;
+	}
+	h3 {
+		font-family: 'Quicksand Variable', sans-serif;
+		font-weight: 700;
+	}
+</style>

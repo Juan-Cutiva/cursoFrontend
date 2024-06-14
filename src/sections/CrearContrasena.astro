@@ -1,6 +1,7 @@
 ---
 import LogoYardSale from '../../Platzi Yard Sale/Platzi_YardSale_Logos/logo_yard_sale.astro';
 import ButtonGreen from '../components/ButtonGreen.astro';
+import InputText from '../components/InputText.astro';
 ---
 
 <body>
@@ -11,23 +12,9 @@ import ButtonGreen from '../components/ButtonGreen.astro';
 			<h2 class="mt-2 text-lg text-[#9b9b9b]">Enter a new password for your account</h2>
 		</div>
 	</main>
-	<article class="mt-4 flex flex-col items-center">
-		<div>
-			<h3 class="sm:mr-64">Password</h3>
-			<input
-				class="bg-grisClaro h-10 w-80 rounded-lg pb-1 pl-2 sm:w-96"
-				type="text"
-				placeholder="More than 8 characters"
-			/>
-		</div>
-		<div class="mt-5">
-			<h3 class="sm:mr-[11.5rem]">Re-enter-password</h3>
-			<input
-				class="bg-grisClaro h-10 w-80 rounded-lg pb-1 pl-2 sm:w-96"
-				type="text"
-				placeholder="Same Password"
-			/>
-		</div>
+	<article class="mt-2 flex flex-col items-center">
+		<InputText text="Password" placeholder="More than 8 characters"/>
+		<InputText text="Re-enter-password" placeholder="Same Password"/>
 	</article>
 	<section class="mt-14 flex flex-col items-center">
 		<ButtonGreen href="https://scene.zeplin.io/project/60afeeed20af1378ed046538" text="Confirm new password"/>
@@ -42,33 +29,5 @@ import ButtonGreen from '../components/ButtonGreen.astro';
 	h2 {
 		font-family: 'Quicksand Variable', sans-serif;
 		font-weight: 500;
-	}
-	h3 {
-		font-family: 'Quicksand Variable', sans-serif;
-		font-weight: 700;
-	}
-	input {
-		border: 2px solid rgba(255, 255, 255, 0);
-	}
-	input::placeholder {
-		color: #c7c7c7;
-	}
-	input[type='text']:focus {
-		border: 2px solid #949494;
-		outline: none;
-	}
-	button {
-		border: 3px solid #acd9b2;
-		border-radius: 10px;
-		transition: all 0.3s;
-		cursor: pointer;
-		background: #acd9b2;
-		font-size: 1.2em;
-		font-weight: 550;
-		font-family: 'Montserrat', sans-serif;
-	}
-	button:hover {
-		background: #acd9b2;
-		font-size: 1.5em;
 	}
 </style>

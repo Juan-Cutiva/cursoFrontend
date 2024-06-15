@@ -1,26 +1,26 @@
 ---
 import LogoYardSale from '../../public/Platzi Yard Sale/Platzi_YardSale_Logos/logo_yard_sale.astro';
 import ButtonGreen from '../components/ButtonGreen.astro';
+import ButtonWhite from '../components/ButtonWhite.astro';
 import InputText from '../components/InputText.astro';
 ---
 
 <body>
-	<main class="mt-16 flex h-[23.3vh] flex-col items-center justify-around">
-		<LogoYardSale width="148" height="38" />
-		<div class="flex flex-col items-center">
-			<h1 class="text-lg">Create a new password</h1>
-			<h2 class="mt-2 text-lg text-[#9b9b9b]">Enter a new password for your account</h2>
-		</div>
+	<a class="flex justify-end mr-3 mt-3"><img src="../../icon_close.png" alt="Close"></a>
+	<main class="flex h-[23.3vh] flex-col items-center justify-around">
+		<LogoYardSale width="250" height="66" />
 	</main>
-	<article class="mt-2 flex flex-col items-center">
-		<InputText text="Password" placeholder="More than 8 characters" />
-		<InputText text="Re-enter-password" placeholder="Same Password" />
+	<article class=" mt-[-4rem] sm:mt-[0rem] flex flex-col items-center">
+		<InputText text="Email address" placeholder="yardsale@examle.com" />
+		<InputText text="Password" placeholder="**********" />
 	</article>
-	<section class="mt-14 flex flex-col items-center">
+	<section class="mt-12 flex flex-col items-center">
 		<ButtonGreen
-			href="https://scene.zeplin.io/project/60afeeed20af1378ed046538"
-			text="Confirm new password"
+			href="#"
+			text="Log in"
 		/>
+	<a href="#" class="text-verde mt-8 hover:text-[#8caf90]">Forgot my password</a>
+	<div class="mt-8"><ButtonWhite href="#" text="Sign up"/></div>
 	</section>
 </body>
 

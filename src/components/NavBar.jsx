@@ -14,7 +14,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 const navigation = [
 	{ name: 'Home', href: '/', current: true },
 	{ name: 'Team', href: '#', current: false },
-	{ name: 'Repository', href: '#', current: false },
+	{ name: 'Repository', href: 'https://github.com/Juan-Cutiva/cursoFrontend', current: false , target: '_blank' },
 	{ name: 'Calendar', href: '#', current: false }
 ];
 
@@ -55,6 +55,8 @@ export default function Example() {
 											<a
 												key={item.name}
 												href={item.href}
+												target={item.target}
+												rel="noopener noreferrer"
 												className={classNames(
 													item.current
 														? 'bg-verde text-white'

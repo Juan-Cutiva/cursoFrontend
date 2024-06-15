@@ -2,6 +2,7 @@
 // Supports weights 300-700
 import '@fontsource-variable/quicksand';
 import '@fontsource/roboto/400.css';
+import CrearContrasenaa from '../sections/CrearContrasena.astro';
 import NavBar from '../components/NavBar';
 ---
 
@@ -11,10 +12,10 @@ import NavBar from '../components/NavBar';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Home</title>
+		<title>Create a new password</title>
 	</head>
 	<body>
 		<NavBar client:load/>
-		<h1>Hola</h1>
+		<CrearContrasenaa/>
 	</body>
 </html>

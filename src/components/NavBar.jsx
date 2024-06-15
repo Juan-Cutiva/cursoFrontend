@@ -45,8 +45,8 @@ export default function Example() {
 								<div className="flex flex-shrink-0 items-center">
 									<img
 										className="h-8 w-auto"
-										src="Platzi Yard Sale\Platzi_YardSale_Logos\favicon_yard_sale.svg"
-										alt="Your Company"
+										src="\Platzi Yard Sale\Platzi_YardSale_Logos\favicon_yard_sale.svg"
+										alt="Yard Sale"
 									/>
 								</div>
 								<div className="hidden sm:ml-6 sm:block">

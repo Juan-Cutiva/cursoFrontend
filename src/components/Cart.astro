@@ -1,0 +1,17 @@
+<section class="flex justify-center mt-10 m-6">
+    <article class="flex-col">
+        <a class="hover:scale-105 duration-200" href={Astro.props.href}
+            ><img
+                class="h-[20rem] border-2 border-verde rounded"
+                src={Astro.props.src}
+            /></a>
+        <h2 class="mt-4 flex justify-center">{Astro.props.text}</h2>
+    </article>
+</section>
+
+<style>
+	h2 {
+		font-family: 'Quicksand Variable', sans-serif;
+		font-weight: 600;
+	}
+</style>

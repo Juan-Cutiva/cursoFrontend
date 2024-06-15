@@ -3,6 +3,8 @@
 import '@fontsource-variable/quicksand';
 import '@fontsource/roboto/400.css';
 import NavBar from '../components/NavBar';
+import Home from '../sections/Home.astro';
+import Cart from '../components/Cart.astro';
 ---
 
 <html lang="en">
@@ -15,9 +17,15 @@ import NavBar from '../components/NavBar';
 	</head>
 	<body>
 		<NavBar client:load />
-		<h1>
-			This is the beginning of this website. Here you can see the different layouts of this garage
-			sale website. To see some, just click on the image.
-		</h1>
+		<Home />
+		<section class="flex flex-wrap justify-center mx-14">
+			<Cart src="../../public/create_a_new password.png" href="/CrearContrasena" text="Create a new password" />
+			<Cart src="../../public/create_a_new password.png" href="/" text="Create a new password" />
+			<Cart src="../../public/create_a_new password.png" href="/" text="Create a new password" />
+			<Cart src="../../public/create_a_new password.png" href="/" text="Create a new password" />
+			<Cart src="../../public/create_a_new password.png" href="/" text="Create a new password" />
+			<Cart src="../../public/create_a_new password.png" href="/" text="Create a new password" />
+			<Cart src="../../public/create_a_new password.png" href="/" text="Create a new password" />
+		</section>
 	</body>
 </html>

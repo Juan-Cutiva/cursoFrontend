@@ -1,22 +1,7 @@
 ---
-// Supports weights 300-700
-import '@fontsource-variable/quicksand';
-import '@fontsource/roboto/400.css';
-import NavBar from '../components/NavBar';
 import Login from '../sections/Login_error2.astro';
+import Layout from '../layouts/Layout.astro';
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="Yard Sale website">
-		<title>Create a new password</title>
-	</head>
-	<body>
-		<NavBar client:load />
+<Layout title="Login_Error_2">
 		<Login />
-	</body>
-</html>
+</Layout>

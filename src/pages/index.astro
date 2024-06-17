@@ -1,24 +1,53 @@
 ---
 import Home from '../sections/Home.astro';
 import Cart from '../components/Cart.astro';
-import Layout from "../layouts/Layout.astro"
+import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Home">
-		<Home />
-		<section class="mx-14 flex flex-wrap justify-center">
-			<Cart
-				src="/png/create_a_new password.png"
-				href="/CrearContrasena"
-				text="Create a new password"
-				alt="Create_a_new password"
-			/>
-			<Cart src="/png/login.png" href="/LoginPage" text="Login" alt="LoginPage" />
-			<Cart src="/png/login_error1.png" href="/Login_error1" text="Login_error_1" alt="Login_error1" />
-			<Cart src="/png/login_error2.png" href="/Login_error2" text="Login_error_2" alt="Login_error2" />
-			<Cart src="/png/create_a_new password.png" href="/" text="Create a new password" alt="imgRandom" />
-			<Cart src="/png/create_a_new password.png" href="/" text="Create a new password" alt="imgRandom" />
-			<Cart src="/png/create_a_new password.png" href="/" text="Create a new password" alt="imgRandom" />
-		</section>
+	<Home />
+	<section class="mx-14 flex flex-wrap justify-center">
+		<Cart
+			src="/png/create_a_new password.png"
+			href="/CrearContrasena"
+			text="Create a new password"
+			alt="Create_a_new password"
+		/>
+		<Cart 
+			src="/png/login.png" 
+			href="/LoginPage" 
+			text="Login" 
+			alt="LoginPage" 
+		/>
+		<Cart
+			src="/png/login_error1.png"
+			href="/Login_error1"
+			text="Login_error_1"
+			alt="Login_error1"
+		/>
+		<Cart
+			src="/png/login_error2.png"
+			href="/Login_error2"
+			text="Login_error_2"
+			alt="Login_error2"
+		/>
+		<Cart
+			src="/png/Password_recovery_1.png"
+			href="/Password_recovery_1"
+			text="Password_recovery_1"
+			alt="Password_recovery_1"
+		/>
+		<Cart
+			src="/png/create_a_new password.png"
+			href="/"
+			text="Create a new password"
+			alt="imgRandom"
+		/>
+		<Cart
+			src="/png/create_a_new password.png"
+			href="/"
+			text="Create a new password"
+			alt="imgRandom"
+		/>
+	</section>
 </Layout>
-

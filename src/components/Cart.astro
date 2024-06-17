@@ -2,8 +2,9 @@
     <article class="flex-col">
         <a class="hover:scale-105 duration-200" href={Astro.props.href}
             ><img
-                class="h-[20rem] border-2 border-verde rounded"
+                class="h-[20rem] w-full border-2 border-verde rounded"
                 src={Astro.props.src}
+                alt={Astro.props.alt}
             /></a>
         <h2 class="mt-4 flex justify-center">{Astro.props.text}</h2>
     </article>

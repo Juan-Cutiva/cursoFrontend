@@ -15,7 +15,7 @@ import InputTextError from '../components/InputText_error.astro';
 		<InputTextError style="padding-top: 0.5rem;" text="Password" placeholder="**********" />
 	</article>
 	<div class="mt-6 flex justify-center">
-		<p>Invalid user ID and password combination</p>
+		<p class="font-medium text-[#ff5454]">Invalid user ID and password combination</p>
 	</div>
 	<section class="mt-6 flex flex-col items-center">
 		<ButtonGray href="#" text="Log in" />
@@ -23,19 +23,3 @@ import InputTextError from '../components/InputText_error.astro';
 		<div class="mb-8 mt-[5rem] flex sm:mb-0 sm:mt-8"><ButtonWhite href="#" text="Sign up" /></div>
 	</section>
 </body>
-
-<style>
-	h1 {
-		font-family: 'Quicksand Variable', sans-serif;
-		font-weight: 700;
-	}
-	h2 {
-		font-family: 'Quicksand Variable', sans-serif;
-		font-weight: 500;
-	}
-	p {
-		font-family: 'Quicksand Variable', sans-serif;
-		font-weight: 500;
-		color: rgb(255, 84, 84);
-	}
-</style>

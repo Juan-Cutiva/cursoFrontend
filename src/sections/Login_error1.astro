@@ -2,7 +2,7 @@
 import LogoYardSale from '../../public/Platzi Yard Sale/Platzi_YardSale_Logos/logo_yard_sale.astro';
 import ButtonGray from '../components/ButtonGray.astro';
 import ButtonWhite from '../components/ButtonWhite.astro';
-import InputText from '../components/InputText_error.astro';
+import InputTextError from '../components/InputText_error.astro';
 ---
 
 <body>
@@ -11,12 +11,12 @@ import InputText from '../components/InputText_error.astro';
 		<LogoYardSale width="250" height="66" />
 	</main>
 	<article class="mt-[-4rem] flex flex-col items-center sm:mt-[0rem]">
-		<InputText text="Email address" placeholder="yardsale@examle.com" />
-		<InputText text="Password" placeholder="**********" />
+		<InputTextError text="Email address" placeholder="yardsale@examle.com" />
+		<InputTextError style="padding-top: 0.5rem;" text="Password" placeholder="**********" />
 	</article>
-	<div class="flex justify-center mt-6">
-        <p>Invalid user ID and password combination</p>
-    </div>
+	<div class="mt-6 flex justify-center">
+		<p>Invalid user ID and password combination</p>
+	</div>
 	<section class="mt-6 flex flex-col items-center">
 		<ButtonGray href="#" text="Log in" />
 		<a href="#" class="mt-8 text-verde hover:text-[#8caf90]">Forgot my password</a>

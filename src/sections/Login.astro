@@ -6,21 +6,18 @@ import InputText from '../components/InputText.astro';
 ---
 
 <body>
-	<a class="flex justify-end mr-3 mt-3"><img src="../../icon_close.png" alt="Close"></a>
-	<main class="flex h-[23.3vh] flex-col items-center justify-around mt-8 sm:mt-0">
+	<a class="mr-3 mt-3 flex justify-end"><img src="../../icon_close.png" alt="Close" /></a>
+	<main class="mt-8 flex h-[23.3vh] flex-col items-center justify-around sm:mt-0">
 		<LogoYardSale width="250" height="66" />
 	</main>
-	<article class=" mt-[-4rem] sm:mt-[0rem] flex flex-col items-center">
+	<article class="mt-[-4rem] flex flex-col items-center sm:mt-[0rem]">
 		<InputText text="Email address" placeholder="yardsale@examle.com" />
 		<InputText text="Password" placeholder="**********" />
 	</article>
 	<section class="mt-12 flex flex-col items-center">
-		<ButtonGreen
-			href="#"
-			text="Log in"
-		/>
-	<a href="#" class="text-verde mt-8 hover:text-[#8caf90]">Forgot my password</a>
-	<div class="mt-[6.3rem] mb-8 flex sm:mt-8 sm:mb-0"><ButtonWhite href="#" text="Sign up"/></div>
+		<ButtonGreen href="#" text="Log in" />
+		<a href="#" class="mt-8 text-verde hover:text-[#8caf90]">Forgot my password</a>
+		<div class="mb-8 mt-[6.3rem] flex sm:mb-0 sm:mt-8"><ButtonWhite href="#" text="Sign up" /></div>
 	</section>
 </body>
 

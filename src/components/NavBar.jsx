@@ -14,7 +14,12 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 const navigation = [
 	{ name: 'Home', href: '/', current: true },
 	{ name: 'Team', href: '#', current: false },
-	{ name: 'Repository', href: 'https://github.com/Juan-Cutiva/cursoFrontend', current: false , target: '_blank' },
+	{
+		name: 'Repository',
+		href: 'https://github.com/Juan-Cutiva/cursoFrontend',
+		current: false,
+		target: '_blank'
+	},
 	{ name: 'Calendar', href: '#', current: false }
 ];
 

@@ -4,7 +4,6 @@ import ButtonGray from '../components/ButtonGray.astro';
 import ButtonWhite from '../components/ButtonWhite.astro';
 import InputText from '../components/InputText.astro';
 import InputTextError from '../components/InputText_error.astro';
-
 ---
 
 <body>
@@ -14,7 +13,7 @@ import InputTextError from '../components/InputText_error.astro';
 	</main>
 	<article class="mt-[-4rem] flex flex-col items-center sm:mt-[0rem]">
 		<InputTextError text="Enter a valid email address" placeholder="yardsale@examle.com" />
-		<InputText text="Password" placeholder="**********" />
+		<InputText style="padding-top: 0.5rem;" text="Password" placeholder="**********" />
 	</article>
 	<section class="mt-6 flex flex-col items-center">
 		<ButtonGray href="#" text="Log in" />

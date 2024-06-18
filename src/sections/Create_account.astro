@@ -1,0 +1,20 @@
+---
+import ButtonGreen from '../components/ButtonGreen.astro';
+import InputText from '../components/InputText.astro';
+---
+
+<body>
+	<main class="mt-8 ml-8 flex h-[10vh] justify-center">
+		<div class="flex flex-col items-center mr-60 sm:mr-[19.4rem]">
+			<h1 class="font-bold text-xl">My account</h1>
+		</div>
+	</main>
+	<article class="mt-2 flex flex-col items-center">
+		<InputText text="Name" placeholder="More than 8 characters" />
+		<InputText text="Email address" placeholder="Same Password" />
+        <InputText style="padding-top: 0.5rem;" text="Password" placeholder="**********" />
+	</article>
+	<section class="mt-14 flex h-[28vh] flex-col items-center justify-end sm:justify-between">
+		<ButtonGreen href="#" text="Confirm new password" />
+	</section>
+</body>

@@ -6,16 +6,16 @@ import SearchS from '../../public/searchS.astro';
 	<input class="flex" />
 	<h3 class="relative font-bold sm:mr-[11.5rem]">{Astro.props.text}</h3>
 	<div class="flex justify-center">
-		<div class="flex justify-end">
-			<div class="absolute flex pt-2 pr-2">
-				<SearchS w="24" h="24" />
-			</div>
+		<div class="flex justify-start">
 			<input
-				style={Astro.props.style}
-				class="h-10 w-80 rounded-lg border-2 border-[#ffffff00] bg-grisClaro pb-1 pl-2 sm:w-96"
-				type="text"
-				placeholder={Astro.props.placeholder}
+			style={Astro.props.style}
+			class="h-10 w-80 rounded-lg border-2 border-[#ffffff00] bg-grisClaro pb-1 pl-7 sm:w-96"
+			type="text"
+			placeholder={Astro.props.placeholder}
 			/>
+			<div class="absolute flex pt-[0.55rem] pl-[0.35rem]">
+				<SearchS w="20" h="20" />
+			</div>
 		</div>
 	</div>
 </div>

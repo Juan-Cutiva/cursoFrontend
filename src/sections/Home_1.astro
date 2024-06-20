@@ -2,8 +2,8 @@
 import Flechita from '../../public/flechita.astro';
 import CartShop from '../components/CartShop.astro';
 import Search from '../components/Search.astro';
+import Prueba from '../components/Prueba'
 ---
-
 <Search placeholder="Search product" />
 <section class="mt-5 flex flex-wrap items-center justify-center sm:hidden">
 	<a
@@ -17,9 +17,8 @@ import Search from '../components/Search.astro';
 	<a href="#" class="mx-3">Toys</a>
 	<a href="#" class="mx-3">Others</a>
 </section>
-<div class="mt-7 flex justify-center">
-	<h1 class="font-bold">Order: <span class="font-normal">Most recent</span></h1>
-	<div class="ml-1 mt-1 rotate-90"><Flechita /></div>
+<div class="mt-7 flex justify-center items-center mb-4">
+	<Prueba client:load/>
 </div>
 <section class="flex items-center justify-center flex-wrap">
 	<!--"\Bt_add_to_cart.svg"

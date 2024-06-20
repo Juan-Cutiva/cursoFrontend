@@ -16,7 +16,7 @@ import NavBar from '../components/NavBar_2';
 	</head>
 	<body>
 		<NavBar client:load />
-		<slot/>
+		<slot id="slot"/>
 	</body>
 </html>
 
@@ -24,5 +24,11 @@ import NavBar from '../components/NavBar_2';
 	html{
 		font-family: 'Quicksand Variable', sans-serif;
 		font-weight: 400
+	}
+	html::-webkit-scrollbar {
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+		height: 100%;
 	}
 </style>

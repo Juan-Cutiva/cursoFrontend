@@ -1,0 +1,17 @@
+<section class="flex justify-center mt-6 m-1">
+    <article class="flex-col">
+        <a class="hover:scale-105 duration-200" href={Astro.props.href}
+            ><img
+                class="rounded-3xl max-h-28 w-44 sm:max-h-36 sm:w-48 sm:mx-3 drop-shadow-md"
+                src={Astro.props.src}
+                alt={Astro.props.alt}
+            /></a>
+        <article class="flex flex-row justify-around mt-2">
+            <!-- <h2 class="mt-4 flex justify-center font-medium">{Astro.props.text}</h2> -->
+            <p class="font-bold">{Astro.props.price}</p>
+            <a href="#">{Astro.props.button}</a>
+            <img class="h-10 drop-shadow-md" style={Astro.props.style} src={Astro.props.srcButton} alt={Astro.props.altButton}>
+        </article>    
+        <p class="ml-4 mt-[-1.2rem]">{Astro.props.text}</p>
+    </article>
+</section>

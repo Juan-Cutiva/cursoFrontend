@@ -1,0 +1,136 @@
+---
+import CartShop from '../components/CartShop.astro';
+import Search from '../components/Search.astro';
+import Prueba from '../components/Prueba'
+---
+<Search placeholder="Search product" />
+<section class="mt-5 flex flex-wrap items-center justify-center sm:hidden">
+	<a
+		href="#"
+		class="ml-3 flex h-4 w-8 items-center justify-center rounded-xl border-2 border-verde px-7 py-4 text-verde"
+		>All</a
+	>
+	<a href="#" class="mx-6">Clothes</a>
+	<a href="#" class="mx-3">Electornics</a>
+	<a href="#" class="mx-3">Furniture</a>
+	<a href="#" class="mx-3">Toys</a>
+	<a href="#" class="mx-3">Others</a>
+</section>
+<div class="mt-7 flex justify-center items-center mb-4">
+	<Prueba client:load/>
+</div>
+<section class="flex items-center justify-center flex-wrap">
+	<!--"\Bt_add_to_cart.svg"
+		"\Bt_added_to_cart.svg" -->
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/30/1280/901.jpg?hmac=A_hpFyEavMBB7Dsmmp53kPXKmatwM05MUDatlWSgATE"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../added.svg"
+		altButton="ButtonAdd"
+		style="height: 48px; width: 48px;"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/48/5000/3333.jpg?hmac=y3_1VDNbhii0vM_FN6wxMlvK27vFefflbUSH06z98so"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/60/1920/1200.jpg?hmac=fAMNjl4E_sG_WNUjdU39Kald5QAHQMh-_-TsIbbeDNI"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/96/4752/3168.jpg?hmac=KNXudB1q84CHl2opIFEY4ph12da5JD5GzKzH5SeuRVM"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/111/4400/2656.jpg?hmac=leq8lj40D6cqFq5M_NLXkMYtV-30TtOOnzklhjPaAAQ"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/119/3264/2176.jpg?hmac=PYRYBOGQhlUm6wS94EkpN8dTIC7-2GniC3pqOt6CpNU"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/91/3504/2336.jpg?hmac=tK6z7RReLgUlCuf4flDKeg57o6CUAbgklgLsGL0UowU"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/133/2742/1828.jpg?hmac=0X5o8bHUICkOIvZHtykCRL50Bjn1N8w1AvkenF7n93E"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/146/5000/3333.jpg?hmac=xdlFnzoavokA3U-bzo35Vk4jTBKx8C9fqH5IuCPXj2U"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/146/5000/3333.jpg?hmac=xdlFnzoavokA3U-bzo35Vk4jTBKx8C9fqH5IuCPXj2U"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+	<CartShop
+		href="#"
+		src="https://fastly.picsum.photos/id/175/2896/1944.jpg?hmac=djMSfAvFgWLJ2J3cBulHUAb4yvsQk0d4m4xBJFKzZrs"
+		price="$ 120,00"
+		text="Dog"
+		alt="CartProduct"
+		srcButton="../../add.svg"
+		altButton="ButtonAdd"
+	/>
+
+
+</section>

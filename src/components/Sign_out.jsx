@@ -17,12 +17,12 @@ const navigation = [
 	{
 		name: 'Electronics',
 		href: '#',
-		current: false,
+		current: false
 	},
 	{
 		name: 'Furniture',
 		href: '#',
-		current: false,
+		current: false
 	},
 ];
 const navigationO = [
@@ -83,13 +83,8 @@ export default function Example() {
 							<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 								<div className="flex flex-shrink-0 items-center">
 									<a href="/">
-                                    <img
-										className="h-8 w-full"
-										src="\yard_sale.svg"
-										alt="Yard Sale"
-									/>
-                                    </a>
-                                    
+										<img className="h-8 w-full" src="\yard_sale.svg" alt="Yard Sale" />
+									</a>
 								</div>
 								<div className="hidden sm:ml-6 sm:block">
 									<div className="flex space-x-4">
@@ -101,7 +96,7 @@ export default function Example() {
 												rel="noopener noreferrer"
 												className={classNames(
 													item.current
-														? 'bg-grisClaro text-verde border-2 border-verde'
+														? 'border-2 border-verde bg-grisClaro text-verde'
 														: 'text-black hover:bg-[#acacac] hover:text-white',
 													'rounded-xl px-4 py-1 text-sm font-medium'
 												)}
@@ -110,7 +105,7 @@ export default function Example() {
 												{item.name}
 											</a>
 										))}
-										{navigationT.map((item) => (
+                                        {navigationT.map((item) => (
 											<a
 												key={item.name}
 												href={item.href}
@@ -154,9 +149,31 @@ export default function Example() {
 										<MenuButton className="relative flex text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
 											<span className="absolute -inset-1.5" />
 											<span className="sr-only">Open user menu</span>
-											<p class="text-verde font-bold">Sign in</p>
+											<p class="hidden font-bold lg:flex">
+												yardsale@examle.com
+												<img
+													className="ml-2 rotate-90 flex sm:flex"
+                                                    class="h-8 w-8"
+													src="\flechita_2.svg"
+													alt="Flecha"
+												/>
+											</p>
 										</MenuButton>
-										<img className="h-6 w-6 ml-4" src="\Platzi Yard Sale\Platzi_YardSale_Icons\icon_shopping_cart_notification.svg" alt="icon_shopping_cart_notification" />
+                                        <MenuButton className="relative flex text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+											<span className="absolute -inset-1.5" />
+											<span className="sr-only">Open user menu</span>
+												<img
+													className="ml-2 rotate-90 flex lg:hidden"
+                                                    class="h-8 w-8"
+													src="\flechita_2.svg"
+													alt="Flecha"
+												/>
+										</MenuButton>
+										<img
+											className="ml-4 h-6 w-6"
+											src="\Platzi Yard Sale\Platzi_YardSale_Icons\icon_shopping_cart_notification.svg"
+											alt="icon_shopping_cart_notification"
+										/>
 									</div>
 									<Transition
 										enter="transition ease-out duration-100"
@@ -167,16 +184,30 @@ export default function Example() {
 										leaveTo="transform opacity-0 scale-95"
 									>
 										<MenuItems className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                        <MenuItem>
+												{({ focus }) => (
+													<a
+														href="#"
+														className={classNames(
+															focus ? 'bg-gray-100' : '',
+															'block px-4 py-2 text-sm font-bold text-gray-800 lg:hidden'
+														)}
+													>
+														yardsale@examle.com
+													</a>
+												)}
+											</MenuItem>
+                                        <hr class="ml-4 w-[10rem] my-2 flex lg:hidden" />
 											<MenuItem>
 												{({ focus }) => (
 													<a
 														href="#"
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
-															'block px-4 py-2 text-sm text-gray-700'
+															'block px-4 py-2 text-sm font-bold text-gray-800'
 														)}
 													>
-														Prueba
+														My orders
 													</a>
 												)}
 											</MenuItem>
@@ -186,10 +217,24 @@ export default function Example() {
 														href="#"
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
-															'block px-4 py-2 text-sm text-gray-700'
+															'block px-4 py-2 text-sm font-bold text-gray-800'
 														)}
 													>
-														Sign out
+														My account
+													</a>
+												)}
+											</MenuItem>
+											<hr class="ml-4 w-[10rem] my-2" />
+											<MenuItem>
+												{({ focus }) => (
+													<a
+														href="#"
+														className={classNames(
+															focus ? 'bg-gray-100' : '',
+															'block px-4 py-2 text-sm font-bold text-verde'
+														)}
+													>
+														Sing Out
 													</a>
 												)}
 											</MenuItem>
@@ -209,7 +254,7 @@ export default function Example() {
 									href={item.href}
 									className={classNames(
 										item.current
-											? 'bg-grisClaro text-verde border-2 border-verde'
+											? 'border-2 border-verde bg-grisClaro text-verde'
 											: 'text-gray-800 hover:bg-[#acacac] hover:text-white',
 										'block rounded-md px-3 py-2 text-base font-medium'
 									)}

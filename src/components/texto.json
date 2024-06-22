@@ -1,5 +1,6 @@
 [
 	{
+		"key" : "1",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI",
 		"price": "$ 220,00",
@@ -9,6 +10,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"2",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/30/1280/901.jpg?hmac=A_hpFyEavMBB7Dsmmp53kPXKmatwM05MUDatlWSgATE",
 		"price": "$ 20,00",
@@ -18,6 +20,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"3",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/48/5000/3333.jpg?hmac=y3_1VDNbhii0vM_FN6wxMlvK27vFefflbUSH06z98so",
 		"price": "$ 1020,00",
@@ -27,6 +30,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"4",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/21/3008/2008.jpg?hmac=T8DSVNvP-QldCew7WD4jj_S3mWwxZPqdF0CNPksSko4",
 		"price": "$ 60,00",
@@ -36,6 +40,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"5",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/60/1920/1200.jpg?hmac=fAMNjl4E_sG_WNUjdU39Kald5QAHQMh-_-TsIbbeDNI",
 		"price": "$ 2000,00",
@@ -45,6 +50,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"6",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/96/4752/3168.jpg?hmac=KNXudB1q84CHl2opIFEY4ph12da5JD5GzKzH5SeuRVM",
 		"price": "$ 120,00",
@@ -54,6 +60,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"7",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/119/3264/2176.jpg?hmac=PYRYBOGQhlUm6wS94EkpN8dTIC7-2GniC3pqOt6CpNU",
 		"price": "$ 1300,00",
@@ -63,6 +70,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"8",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/91/3504/2336.jpg?hmac=tK6z7RReLgUlCuf4flDKeg57o6CUAbgklgLsGL0UowU",
 		"price": "$ 2200,00",
@@ -72,6 +80,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"9",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/133/2742/1828.jpg?hmac=0X5o8bHUICkOIvZHtykCRL50Bjn1N8w1AvkenF7n93E",
 		"price": "$ 1400,00",
@@ -81,6 +90,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"10",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/146/5000/3333.jpg?hmac=xdlFnzoavokA3U-bzo35Vk4jTBKx8C9fqH5IuCPXj2U",
 		"price": "$ 80,00",
@@ -90,6 +100,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"11",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/175/2896/1944.jpg?hmac=djMSfAvFgWLJ2J3cBulHUAb4yvsQk0d4m4xBJFKzZrs",
 		"price": "$ 40,00",
@@ -99,6 +110,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"12",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/34/3872/2592.jpg?hmac=4o5QGDd7eVRX8_ISsc5ZzGrHsFYDoanmcsz7kyu8A9A",
 		"price": "$ 15,00",
@@ -108,6 +120,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"13",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/157/5000/3914.jpg?hmac=A23PziOOpi_DIdiPRI30m9_1A8keOtMF3a6Vb-D7dRA",
 		"price": "$ 200,00",
@@ -117,6 +130,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"14",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/183/2316/1544.jpg?hmac=908ZBWKqGdL9kio38tCq2ViwMm3DjLUtkjU_6SWNa9k",
 		"price": "$ 3000,00",
@@ -126,6 +140,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"15",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/211/1920/1280.jpg?hmac=5feWJpfa59_r1yi4NCuTxY9IWrNWZqEUDIAwrtKId9s",
 		"price": "$ 5000,00",
@@ -135,6 +150,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"16",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/816/5000/3333.jpg?hmac=_6tgFk0XUBO6-wQJnifC-Abqh5W_hu-4lPGN_2d8Sn4",
 		"price": "$ 1500,00",
@@ -144,6 +160,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"17",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/403/3997/2665.jpg?hmac=l04T0quGocuZKSo0CxAJ7aC8CivbrCWV0X0dCzqvb0Y",
 		"price": "$ 500,00",
@@ -153,6 +170,7 @@
 		"altButton": "ButtonAdd"
 	},
 	{
+		"key":"18",
 		"href": "#",
 		"src": "https://fastly.picsum.photos/id/367/4928/3264.jpg?hmac=H-2OwMlcYm0a--Jd2qaZkXgFZFRxYyGrkrYjupP8Sro",
 		"price": "$ 800,00",

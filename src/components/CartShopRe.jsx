@@ -10,6 +10,7 @@ export default function Example() {
 				{Prueba.map((item) => (
 					<div className="mx-1 my-2 flex items-center justify-center sm:mx-3">
 						<a
+							key={item.key}
 							href={item.href}
 							rel="noopener noreferrer"
 							aria-current={item.current ? 'page' : undefined}

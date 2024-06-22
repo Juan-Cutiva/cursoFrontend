@@ -133,5 +133,32 @@
 		"alt": "CartProduct",
 		"srcButton": "../../add.svg",
 		"altButton": "ButtonAdd"
+	},
+	{
+		"href": "#",
+		"src": "https://fastly.picsum.photos/id/816/5000/3333.jpg?hmac=_6tgFk0XUBO6-wQJnifC-Abqh5W_hu-4lPGN_2d8Sn4",
+		"price": "$ 1500,00",
+		"name": "iPhone",
+		"alt": "CartProduct",
+		"srcButton": "../../add.svg",
+		"altButton": "ButtonAdd"
+	},
+	{
+		"href": "#",
+		"src": "https://fastly.picsum.photos/id/403/3997/2665.jpg?hmac=l04T0quGocuZKSo0CxAJ7aC8CivbrCWV0X0dCzqvb0Y",
+		"price": "$ 500,00",
+		"name": "Typewriter",
+		"alt": "CartProduct",
+		"srcButton": "../../add.svg",
+		"altButton": "ButtonAdd"
+	},
+	{
+		"href": "#",
+		"src": "https://fastly.picsum.photos/id/367/4928/3264.jpg?hmac=H-2OwMlcYm0a--Jd2qaZkXgFZFRxYyGrkrYjupP8Sro",
+		"price": "$ 800,00",
+		"name": "Kindle",
+		"alt": "CartProduct",
+		"srcButton": "../../add.svg",
+		"altButton": "ButtonAdd"
 	}
 ]
